@@ -18,6 +18,7 @@ public class Categoria {
 	@Column(unique = true)
 	private String nome;
 	
+	@SuppressWarnings("unused")
 	@Deprecated
 	private Categoria() {
 	}
